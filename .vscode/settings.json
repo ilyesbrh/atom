@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#231B7F",
+        "titleBar.activeBackground": "#3126B1",
+        "titleBar.activeForeground": "#FAF9FE"
+    },
+    "cSpell.words": [
+        "Container"
+    ]
+}
