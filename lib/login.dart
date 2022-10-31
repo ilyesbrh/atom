@@ -122,6 +122,40 @@ class _LoginState extends State<Login> {
                                 )),
                               ],
                             ),
+                          ),
+                          SizedBox(height: 20),
+                          Container(
+                            padding: EdgeInsets.symmetric(
+                                horizontal: 18, vertical: 4),
+                            decoration: BoxDecoration(
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(3)),
+                                border: Border.all(
+                                  color: Color(0xffb2bbbb),
+                                  width: 2,
+                                )),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                SvgPicture.asset('images/profile.svg'),
+                                Container(
+                                  color: Colors.black,
+                                  width: 1,
+                                  height: 22,
+                                  margin: EdgeInsets.symmetric(
+                                      vertical: 0, horizontal: 12),
+                                ),
+                                Expanded(
+                                    child: TextField(
+                                  // maxLines: 1,
+                                  decoration: InputDecoration(
+                                      contentPadding: const EdgeInsets.all(0.0),
+                                      border: InputBorder.none,
+                                      hintText: "Hint here"),
+                                )),
+                              ],
+                            ),
                           )
                         ],
                       )),

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514353108589",
+    "project_id": "ghpatome",
+    "storage_bucket": "ghpatome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514353108589:android:fe8b10d2f49f62d0f75164",
+        "android_client_info": {
+          "package_name": "lotfi.pharm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514353108589-oikm1iq0chv0sdk1rl1mfs0lpgt0j2gd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPrBJLHB3jAKuTVScB84o61QrsUrLjdEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514353108589-oikm1iq0chv0sdk1rl1mfs0lpgt0j2gd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
